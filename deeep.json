@@ -1,0 +1,32 @@
+{
+    "project": {
+        "name": "Figma SDS",
+        "uuid": "918acf56-c528-4e17-b3a2-6e8414515f7e",
+        "projectSettings": {
+            "framework": "react",
+            "language": "tsx",
+            "styling": "css",
+            "styleMode": "external",
+            "remBaseFontSize": 16,
+            "customInstructions": null
+        },
+        "gitRepoName": "nicolaselmir/sds",
+        "gitRepoUrl": "https://github.com/nicolaselmir/sds.git",
+        "version": 0.1
+    },
+    "discovery": {
+        "type": "STORYBOOK",
+        "storybookConfigDirectory": ".storybook",
+        "storybookIndexJsonPath": "dist/storybook/index.json",
+        "componentIndexJsonPath": ".deeep.index.json",
+        "stories": [
+            "src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+        ],
+        "exclude": [
+            "**/node_modules/**",
+            "**/dist/**"
+        ],
+        "hostStorybook": true,
+        "storybookUrl": "https://deeepspace-main.lon1.cdn.digitaloceanspaces.com/app/projects/918acf56-c528-4e17-b3a2-6e8414515f7e/storybook/"
+    }
+}
